@@ -1,0 +1,12 @@
+C:\Users\Matthew\Documents\Empire\Server\Illisian.UnityUtil\obj\Debug\Illisian.UnityUtil.csprojResolveAssemblyReference.cache
+C:\Users\Matthew\Documents\Empire\Server\Illisian.UnityUtil\bin\Debug\Illisian.UnityUtil.dll
+C:\Users\Matthew\Documents\Empire\Server\Illisian.UnityUtil\bin\Debug\Illisian.UnityUtil.pdb
+C:\Users\Matthew\Documents\Empire\Server\Illisian.UnityUtil\obj\Debug\Illisian.UnityUtil.dll
+C:\Users\Matthew\Documents\Empire\Server\Illisian.UnityUtil\obj\Debug\Illisian.UnityUtil.pdb
+E:\Projects\unity\EmpireProject\Code\Illisian.UnityUtil\bin\Debug\Illisian.UnityUtil.dll
+E:\Projects\unity\EmpireProject\Code\Illisian.UnityUtil\bin\Debug\Illisian.UnityUtil.pdb
+E:\Projects\unity\EmpireProject\Code\Illisian.UnityUtil\obj\Debug\Illisian.UnityUtil.csprojResolveAssemblyReference.cache
+E:\Projects\unity\EmpireProject\Code\Illisian.UnityUtil\obj\Debug\Illisian.UnityUtil.dll
+E:\Projects\unity\EmpireProject\Code\Illisian.UnityUtil\obj\Debug\Illisian.UnityUtil.pdb
+E:\Projects\unity\EmpireProject\Code\build\Illisian.UnityUtil.dll
+E:\Projects\unity\EmpireProject\Code\build\Illisian.UnityUtil.pdb

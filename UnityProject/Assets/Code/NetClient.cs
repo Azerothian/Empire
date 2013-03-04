@@ -32,7 +32,7 @@ public class NetClient : MonoBehaviour
         LogManager.Context.LogEvent += Context_LogEvent;
         _client = new Client();
         Log.Info("Initialising the Network Client");
-
+		/*
         _client.OnPlayerConnect += _client_OnPlayerConnect;
         _client.OnPlayerDisconnect += _client_OnPlayerDisconnect;
         _client.OnPlayerMove += _client_OnPlayerMove; 
@@ -41,7 +41,7 @@ public class NetClient : MonoBehaviour
         
         var pos = ConvertVector3ToVec3(_myPostion);
         var rot = ConvertQuaternionToQuat(_myRotation);
-        _client.SendMessage(new PlayerConnect() { id = _myid, Position = pos, Rotation = rot });
+        _client.SendMessage(new PlayerConnect() { id = _myid, Position = pos, Rotation = rot });*/
        
     }
 
@@ -95,8 +95,8 @@ public class NetClient : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _client.ProcessMessage();
-        CheckMove();
+       // _client.ProcessMessage();
+       // CheckMove();
     }
     private void CheckMove()
     {
@@ -125,8 +125,8 @@ public class NetClient : MonoBehaviour
 
     void OnDestroy()
     {
-        _client.SendMessage(new PlayerDisconnect() { id = _myid });
-        _client.Shutdown();
+        //_client.SendMessage(new PlayerDisconnect() { id = _myid });
+       // _client.Shutdown();
     }
     void Context_LogEvent(Illisian.UnityUtil.Logging.LogType type, string message, params object[] objects)
     {
